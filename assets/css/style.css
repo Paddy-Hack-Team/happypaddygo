@@ -28,10 +28,20 @@ nav {
 /* Hero landing page  */
 
 .hero {
-    height: 95vh;
+    height: 100vh;
     background-image: url('/assets/img/pexels-darlene-alderson.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.hero-overlay {
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 
 
 /* --------------------------------------------------- About Paddy */
@@ -55,7 +65,6 @@ nav {
     top: 0;
     height: 500px;
     width: 100%;
-      
 }
 
 .carousel-container h3 {
