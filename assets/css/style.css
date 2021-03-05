@@ -31,14 +31,3 @@ nav {
 
 
 
-.carousel-container {
-    height: 500px;
-    max-width: 100%;  
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    display: block;
-    overflow: hidden;
-}

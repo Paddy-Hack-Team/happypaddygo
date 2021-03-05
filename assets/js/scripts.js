@@ -1,5 +1,6 @@
 // Materialize Scripts initiation 
 
 $(document).ready(function(){
-    $(".sidenav").sidenav({edge: "right"}); //navbar initiation
+    $(".sidenav").sidenav({edge: "right"}); //navbar initialization
+    $('.slider').slider({height: 500}); //Slider initialization
 });
