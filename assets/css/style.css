@@ -29,6 +29,15 @@ nav {
 
 /* About Paddy  */
 
+.aboutpaddy {
+    padding: 40px;
+}
+
+.videogallery {
+    padding-bottom: 30px;
+
+}
+
 .social {
     display: flex;
     justify-content: center;
