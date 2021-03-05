@@ -34,8 +34,71 @@
             <li><a class="white-text" href="/sendmessage.html">Greeting Cards</a></li>
           </ul>
     </header>
+    
     <section>
+        <div class="container">
+            <div class="col s12 m6">
+                <h3>It's St.Patrick's Day!</h3>
+                <h4>time to wear a shamrock, go green, get jiggy and grow all the way!</h4>
+                <p>Make this Paddy's Day very special one for your friends, family and loved ones by sending them a greetings card!</p> 
+            </div>
+        </div>
         
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div>
+                        <img src="/assets/img/green-drink.jpg" alt="" height="200px" >                    
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div>
+                        photo2                    
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div>
+                        photo3                    
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div>
+                        photo4                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <form class="col s12 m6" action="post">
+                    <div class="input-field">
+                        <input placeholder="From" id="from" type="text" class="validate" aria-required="true">
+                        <input placeholder="To" id="from" type="text" class="validate">
+                        <input placeholder="Recipient's E-mail" id="email" type="email" class="validate">
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <label>Select Card</label>
+                            <select class="icons">
+                                <option value="" disabled selected></option>
+                                <!--add photos and check how its work-->
+                                <option value="" data-icon="/assets/img/pexels-darlene-alderson-7016330.jpg">photo 1</option>
+                                <option value="" data-icon=".jpg">photo 2</option>
+                                <option value="" data-icon="images/photo3.jpg">photo 3</option>
+                                <option value="" data-icon="images/photo4.jpg">photo 4</option>
+                            </select>                    
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <textarea placeholder="Write your message:" id="text" class="materialize-textarea"></textarea>
+                    </div>
+                    <div class="row">
+                        <button class="btn waves-effect waves-light green darken-1" type="submit" name="action">Send Message
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 
 
