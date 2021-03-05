@@ -29,5 +29,27 @@ nav {
 
 /* About Paddy  */
 
+.social {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
 
+.social a {
+    font-size: 1.5em;
+    padding: 0 50px;
+}
 
+.overlay {
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 100%;
+      
+}
+
+.carousel-container h3 {
+    font-weight: 700;
+}
