@@ -4,3 +4,20 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Navbar styling  */
+nav {
+    font-weight: bold;
+}
+
+.brand-logo img {
+    padding: 10px 0 0 10px;
+    height: 50px;
+    width: auto;
+}
+
+.sidenav img {
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+}
