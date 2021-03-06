@@ -96,27 +96,42 @@ nav {
 }
 
 /*---------------------send message page*/
-/*.cards-setting{
-  height: 250px;
-}*/
-/*-------------------------------- message section
-#message{
-
-}*/
-/*-------------------------------- cards section*/
-h6{
-  text-align: center;
-  color: darkgreen;
+h3,h4{
   font-family: 'Marck Script', cursive;
+}
+/*-------------------------------- message section*/
+
+h3{
+  font-weight:600;
+  font-size: 4rem;
+}
+
+h4{
+  color: #008000;
   font-weight: 600;
-  font-size: 24px;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  
+}
+/*#message{
+ }*/
+ 
+
+/*-------------------------------- cards section*/
+span{
+  color:#008000;
+  font-family: 'Marck Script', cursive;
+  font-weight:600;
+  font-size: 1.5rem;
 }
 
 .funny-cards{
   height:60%;
   width:75%; 
 }
-
 
 /*
 #paddy-cards{
