@@ -1,6 +1,9 @@
 /* Import of Roboto Font from Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Import of Open Sans and Marck Script Font from Google Fonts for sendmessage page  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Marck+Script&family=Open+Sans&display=swap');
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -60,12 +63,6 @@ nav {
 
 /* --------------------------------------------------- About Paddy */
 
-/* form*/
-
-.send-message {
-  color: red;
-}
-
 .aboutpaddy {
   padding: 40px;
 }
@@ -97,6 +94,40 @@ nav {
 .carousel-container h3 {
   font-weight: 700;
 }
+
+/*---------------------send message page*/
+/*.cards-setting{
+  height: 250px;
+}*/
+/*-------------------------------- message section
+#message{
+
+}*/
+/*-------------------------------- cards section*/
+h6{
+  text-align: center;
+  color: darkgreen;
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.funny-cards{
+  height:60%;
+  width:75%; 
+}
+
+
+/*
+#paddy-cards{
+}*/
+
+/*-------------------------------- form section
+#fill-form{
+
+}*/
+
+
 
 /* --------------------------------------------------- Footer */
 footer .copyright {
