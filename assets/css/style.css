@@ -52,16 +52,10 @@ nav {
   z-index: 5;
 }
 
-/* --------------------------------------------------- Landing page cards */
-.card-main {
-  height: 200px;
-}
-.card-image-main {
-  height: 200px;
-}
-
 /* Action now section  */
-
+.cards-index .index-img {
+  object-fit: cover;
+}
 .action-now {
   height: 100vh;
 }
