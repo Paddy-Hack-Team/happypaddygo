@@ -106,44 +106,84 @@ h4 {
 }
 /*-------------------------------- message section*/
 
-h3 {
-  font-weight: 600;
-  font-size: 4rem;
-}
 
-h3,
-h4 {
-  color: #008000;
-  font-weight: 600;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-}
-/*#message{
- }*/
 
 /*-------------------------------- cards section*/
-span {
-  color: #008000;
-  font-family: 'Marck Script', cursive;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
 
 .funny-cards {
   height: 60%;
   width: 75%;
 }
 
-/*
-#paddy-cards{
-}*/
 
-/*-------------------------------- form section
-#fill-form{
-}*/
+/* --------------------------------------------------- Send Card Selected */
+
+.send-title {
+  margin-top: 80px;
+  color: #008000;
+}
+
+.send-title h3 {
+  font-weight: 600;
+  font-size: 4em;
+}
+
+.send-title p {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+.card-center {
+  display:flex;
+  justify-content: center;
+  margin: 30px 0 20px 0;
+}
+
+.greenspan {
+    color: #008000;
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    font-size: 1.8rem;  
+}
+
+.sendmsg-img {
+  width: 600px;
+  height: 900px;
+}
+
+.send-form {
+  margin: 80px 0;
+}
+
+.submit-form {
+  margin-top: 80px;
+}
+
+.submit-form button {
+  font-family: 'Marck Script', cursive;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+
+/* Materialize Forms styling changes */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2da32d;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:  #2da32d;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:  #2da32d;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #2da32d;
+}
+
+
+
+
 
 /* --------------------------------------------------- Footer */
 footer .copyright {
