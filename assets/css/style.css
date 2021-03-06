@@ -52,12 +52,17 @@ nav {
   z-index: 5;
 }
 
+.hero-call h1 {
+  margin-bottom: 100px;
+}
+
+.hero-call a {
+  font-size: 3rem;
+}
+
 /* Action now section  */
 .cards-index .index-img {
   object-fit: cover;
-}
-.action-now {
-  height: 100vh;
 }
 
 /* --------------------------------------------------- About Paddy */
@@ -95,7 +100,7 @@ nav {
 }
 
 /*---------------------send message page*/
-h3,
+#message h3,
 h4 {
   font-family: 'Marck Script', cursive;
 }
