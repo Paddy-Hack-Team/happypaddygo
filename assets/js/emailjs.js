@@ -1,7 +1,5 @@
 //Email JS send code from their documentation
 
-const btn = document.getElementById('send');
-
 document.getElementById('paddyform')
 .addEventListener('submit', function(event) {
 
