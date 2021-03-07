@@ -1,5 +1,8 @@
 # happypaddygo
-Hackathon March 2021 - Code Institute
+To visit live website, [click here.](https://paddy-hack-team.github.io/happypaddygo/)
+
+<img src="https://paddy-hack-team.github.io/happypaddygo/assets/img/happypaddygo-readme.JPG">
+
 # User Experience (UX)
 # Features
 The website features a header with a logo on the left and navigation bar with menu items on the left. It aslo features a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
@@ -29,10 +32,11 @@ This project is created with:
 - CSS3 - for styling elements
 - JavaScript
 - Google Fonts - Roboto, Marck Script used for the font-family and Open Sans as the fall-back.
-- Font Awesome - for Icons
-- Materialize - 
-- Visual Studio/GitHub
-
+- Font Awesome - for Icons.
+- Materialize CSS - Used for elements, components and styling of the page.
+- Visual Studio Code - Text editor for coding
+- GitHub - Used for hosting the code, project management and version control.
+- GitHub Pages - This is where the site is deployed.
 
 # Testing
 
@@ -55,11 +59,11 @@ Below are the resources that were used.
 # Acknowledgements
 This webiste was created through guidance from our mentor Chris, team efforts, effective and efficient collaboration and communications from the team member below.
 
-- Fabio 
-- Magda
-- Alesandro
+- Fabio De Araujo
+- Magda Ruszaj
+- Alessandro Commentucci
 - Joan Amudu
-- M casey
-- Fiachara
+- Mike Casey
+- Fiachra Holland
 
 
