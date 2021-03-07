@@ -20,8 +20,11 @@ document.getElementById('paddyform')
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      alert('Sent!');
+        M.toast({html: 'Your message was sent successfuly!', classes: "green darken-1"});
+        document.getElementById("paddyform").reset();
     }, (err) => {
-      alert(JSON.stringify(err));
+        M.toast({html: 'Sorry, we had trouble in sending your message. Error: ', err});
+        document.getElementById("paddyform").reset();
     });
+
 });
