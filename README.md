@@ -6,6 +6,44 @@ To visit live website, [click here.](https://paddy-hack-team.github.io/happypadd
 
 # User Experience (UX)
 
+### User stories
+
+- #### First Time Visitor Goals
+
+  - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about St. Patrick's Day.
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+  - As a First Time Visitor, I want to have the option to watch videos related to St. Patrick's Day from all over the world.
+  - As a First Time Visitor, I want to send e-cards to loved ones.
+
+- #### Returning Visitor Goals
+
+  - As a Returning Visitor, I want to see if there is new information and new cards about St. Patrick's Day.
+
+- ### Design
+
+  - #### General
+
+    - This webpage was created as a mobile first, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
+
+  - #### Colour Scheme
+
+    - The website was created using the Irish colors of Green and white. The fonts are in green and correspond nicley with the white background color. This color scheme also reflects the St. Patrick's Day colors.
+
+  - #### Typography
+
+    - The Marck Script is the main font used throughout the whole website with Roboto in the Menu items, footer and paragraphs. To keep this site consitent Open Sans is used as the fallback font in case for any reason the font isn't being imported into the site correctly.
+
+  - #### Imagery
+
+    - Imagery is very important and we used that throughout our site to present a visually appeal webiste.
+    - Videos are used for the same reason to enhance the user experience.
+
+  - ### Wireframes
+
+    - Home Page Wireframe - ![View](assets/img/Wireframe-Home.png)
+    - St.Patrick's Day Page Wireframe - ![View](assets/img/Wireframe-paddy.png)
+    - Greetings Cards Page Wireframe -![View](assets/img/Wireframe-cards.png)
+
 # Features
 
 The website features a header with a logo on the left and navigation bar with menu items on the left. It aslo features a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
@@ -52,6 +90,31 @@ This project is created with:
 
 ## Links
 
+## Responsive Design
+
+## Accessibility
+
+## Validators
+
+## Grammar and spelling
+
+## Lighthouse
+
+# Deployment
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Paddy-Hack-Team/happypaddygo)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://paddy-hack-team.github.io/happypaddygo/) in the "GitHub Pages" section.
+
+## Collaboration
+
 - Each navbar link worked correctly, in both the mobile navbar and the expanded desktop navbar in all pages.
 - The links of the social pages in the footer works correctly in all the website pages opening a new page.
 - The the navbar logo works correctly by redirecting the user to the homepage.
@@ -70,6 +133,19 @@ This project is created with:
 ## Lighthouse
 
 # Deployment
+
+This project has been deployed on GitHub Pages by the Admin with the following process:
+
+- All code was written on Gitpod, an online IDE.
+- The code was then pushed to GitHub where it is stored in my Repository.
+- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
+- Under 'Source' drop-down, the 'Master branch' was selected.
+- Once selected, this publishes the project to GitHub Pages and displays the site url.
+- There is no difference between the deployed version and the development version.
+- The code can be run locally through clone or download.
+- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+- The Clone option provides a url, which you can use on your desktop IDE.
+- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 This project has been deployed on GitHub Pages by the Admin with the following process:
 
