@@ -61,10 +61,30 @@ nav {
 }
 
 /* Action now section  */
+
+.action-now {
+  margin: 80px 0;
+}
+
+.card-space {
+  margin-bottom: 50px;
+}
+
+
 .cards-index .index-img {
   object-fit: cover;
 }
 
+.card-title-bold {
+  font-weight: bold !important;
+}
+
+.card-content p {
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+ 
 /* --------------------------------------------------- About Paddy */
 
 .aboutpaddy {
@@ -98,10 +118,6 @@ nav {
 .carousel-container h3 {
   font-weight: 700;
 }
-
-
-/*-------------------------------- message section*/
-
 
 
 /*-------------------------------- cards section*/
@@ -162,9 +178,10 @@ nav {
   margin-top: 80px;
 }
 
-.submit-form button {
+.submit-form button,
+.index-card-link {
   font-family: 'Marck Script', cursive;
-  text-transform: capitalize;
+  text-transform: capitalize !important;
   font-size: 1.5em;
 }
 
