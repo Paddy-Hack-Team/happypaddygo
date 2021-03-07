@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="This page will give informations about St. Patrick's Day.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/img/faviconhpg.svg" type="image/svg"/>
+    <link rel="shortcut icon" href="assets/img/faviconhpg.svg" type="image/svg"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">    
+    <link rel="stylesheet" href="assets/css/style.css">    
     <script src="https://kit.fontawesome.com/b22084529e.js" crossorigin="anonymous"></script>
     <title>About Paddy</title>
 </head>
@@ -18,11 +18,12 @@
         <!-- top navbar -->
         <nav class="green darken-1">
             <div class="container nav-wrapper">
-                <a href="/index.html" class="brand-logo"><img src="/assets/img/happypaddygo.png" alt="Happy Paddy Go"></a>
+                <a href="index.html" class="brand-logo"><img src="assets/img/happypaddygo.png" alt="Happy Paddy Go"></a>
                 <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a  href="/aboutpaddy.html">St Patrick's Day</a></li>
-                    <li><a href="/sendmessage.html">Greeting Cards</a></li>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="aboutpaddy.html">St Patrick's Day</a></li>
+                    <li><a href="sendmessage.html">Greeting Cards</a></li>
                 </ul>
             </div>
           </nav>
@@ -30,44 +31,44 @@
           <ul class="sidenav green darken-1" id="mobile">
             <li>
                 <div class="center-align">
-                    <img class="row" src="/assets/img/happypaddygo.png" alt="Happy Paddy Go">
+                    <img class="row" src="assets/img/happypaddygo.png" alt="Happy Paddy Go">
                 </div>
-            </li>        
-            <li><a class="white-text" href="/aboutpaddy.html">St Patrick's Day</a></li>
-            <li><a class="white-text" href="/sendmessage.html">Greeting Cards</a></li>
+            </li>
+            <li><a class="white-text" href="index.html">Home</a></li>        
+            <li><a class="white-text" href="aboutpaddy.html">St Patrick's Day</a></li>
+            <li><a class="white-text" href="sendmessage.html">Greeting Cards</a></li>
           </ul>
     </header>
 
-    <section>
-      
-      <div class="carousel-container">
-        
+    <!-- Images Carousel with slider -->
+    <section>      
+      <div class="carousel-container">        
         <div class="slider">
           <ul class="slides">
             <li>
-              <img src="/assets/img/green-drink.jpg"> <!-- random image -->
+              <img src="assets/img/green-drink.jpg"> <!-- drink image -->
               <div class="overlay"></div>
-              <div class="caption center-align">
-                <h3 class="white-text">"May the lilt of Irish laughter lighten every load."-Irish Blessing</h3>
+              <div class="caption center-align head-title">
+                <h3 class="white-text">"May the lilt of Irish laughter lighten every load." -Irish Blessing</h3>
               </div>
             </li>
             <li>
-              <img src="/assets/img/green-hearts.jpg"> <!-- random image -->
+              <img src="assets/img/green-hearts.jpg"> <!-- hearts image -->
               <div class="overlay"></div>
-              <div class="caption center-align">
+              <div class="caption center-align head-title">
                 <h3 class="white-text">"Be still and know that I am. Be still and know. Be still. Be." -St. Patrick</h3>
               </div>
             </li>
             <li>
-              <img src="/assets/img/shamrock-mugs.jpg"> <!-- random image -->
+              <img src="assets/img/shamrock-mugs.jpg"> <!-- shamrock image -->
               <div class="overlay"></div>
-              <div class="caption center-align">
+              <div class="caption center-align head-title">
               <h3 class="white-text">"May you have all the happiness and luck that life can hold—and 
                 at the end of your rainbows ay you find a pot of gold." -Old Irish Blessing</h3>
               </div>
             </li>
             <li>
-              <img src="/assets/img/Happy-shamrock.jpg"> <!-- random image -->
+              <img src="assets/img/Happy-shamrock.jpg"> <!-- happy-shamrock image -->
               <div class="caption center-align"></div>
             </li>            
           </ul>
@@ -75,10 +76,12 @@
         </div>
       
     </section>
-    <section>
+
+    <!-- Information about St. Patrick -->
+    <section>      
       <div class="container"> 
         <div class="aboutpaddy center-align">
-            <div class="col center-align">
+            <div class="col center-align head-title">
                 <h3>About St. Patrick's Day</h3>
                 <p>
                     Saint Patrick's Day, or the Feast of Saint Patrick, is a cultural and religious celebration held on 17 March, 
@@ -92,31 +95,37 @@
         </div>
       </div>        
     </section>
+
+    <!-- Youtube videos about St. Patrick Day celebrations-->
     <section>
       <div class="container">
-        <div class="videogallery row">
-            <div class="col s12 m6">
-                <iframe src="https://youtube.com/embed/40BlVzjxu-I" frameborder="0" width="100%" height="250"><p>A Brief History of St. Patrick's Day</p></iframe>
+        <div class="videogallery row">          
+            <div class="col s12 m6 video">
+              <iframe src="https://youtube.com/embed/40BlVzjxu-I" frameborder="0" width="100%" height="300"><p>A Brief History of St. Patrick's Day</p></iframe>
+            </div>          
+            <div class="col s12 m6 video">
+              <iframe src="https://www.youtube.com/embed/BBE_aW7Bsn4" frameborder="0" width="100%" height="300"><p>Why we wear green</p></iframe>
             </div>
-            <div class="col s12 m6">
-              <iframe src="https://www.youtube.com/embed/BBE_aW7Bsn4" frameborder="0" width="100%" height="250"><p>Why we wear green</p></iframe>
-            </div>  
-        
-          <div class="col s12 m6">
-              <iframe src="https://youtube.com/embed/4uuuOdul7ys" frameborder="0" width="100%" height="250"><p>St. Patrick's day Celebrations Around the World!</p></iframe>
-          </div>
-          <div class="col s12 m6">
-            <iframe src="https://www.youtube.com/embed/HFch06rGKXw" frameborder="0" width="100%" height="250"><p>Why we wear green</p></iframe>
+         
+            <div class="col s12 m6 video">
+              <iframe src="https://youtube.com/embed/4uuuOdul7ys" frameborder="0" width="100%" height="300"><p>St. Patrick's day Celebrations Around the World!</p></iframe>
+            </div>         
+            <div class="col s12 m6 video">
+              <iframe src="https://www.youtube.com/embed/HFch06rGKXw" frameborder="0" width="100%" height="300"><p>Why we wear green</p></iframe>
+            </div>
           </div>  
+        </div>
       </div>
-      </div>
+      
     </section>
+
+     <!-- Social Media -->
     <footer class="green darken-1">
       <div class="row social container">
-          <a class="white-text" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>           
-          <a class="white-text" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>          
-          <a class="white-text" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>         
-          <a class="white-text" href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>            
+          <a class="white-text" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>           
+          <a class="white-text" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>          
+          <a class="white-text" href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fab fa-instagram-square"></i></a>         
+          <a class="white-text" href="https://www.github.com/" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>            
       </div>
       <div class="row center-align copyright">
         <p class="white-text">&copy; Happy Paddy Go</p>

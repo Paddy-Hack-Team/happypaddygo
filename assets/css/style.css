@@ -30,7 +30,7 @@ nav {
 /* Hero landing page  */
 
 .hero {
-  height: 100vh;
+  height: 50vh;
   background-image: url('../img/pexels-darlene-alderson.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,20 +40,16 @@ nav {
 .hero-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
+  height: 50vh;
   width: 100%;
 }
 
 .hero-call {
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 17%;
   margin-top: 100px;
   z-index: 5;
-}
-
-.hero-call h1 {
-  margin-bottom: 100px;
 }
 
 .hero-call i {
@@ -61,8 +57,30 @@ nav {
 }
 
 /* Action now section  */
+
+.action-now {
+  margin: 80px 0;
+}
+
+.card-space {
+  margin-bottom: 50px;
+}
+
 .cards-index .index-img {
   object-fit: cover;
+}
+
+.card-title-bold {
+  font-weight: bold !important;
+}
+
+.card-content p {
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.card-action a {
+  font-weight: bolder;
 }
 
 /* --------------------------------------------------- About Paddy */
@@ -72,7 +90,10 @@ nav {
 }
 
 .videogallery {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+.video {
+  margin-bottom: 50px;
 }
 
 .social {
@@ -99,54 +120,202 @@ nav {
   font-weight: 700;
 }
 
-/*---------------------send message page*/
-#message h3,
-h4 {
-  font-family: 'Marck Script', cursive;
-}
-/*-------------------------------- message section*/
-
-h3 {
-  font-weight: 600;
-  font-size: 4rem;
-}
-
-h3,
-h4 {
-  color: #008000;
-  font-weight: 600;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-}
-/*#message{
- }*/
-
 /*-------------------------------- cards section*/
-span {
-  color: #008000;
-  font-family: 'Marck Script', cursive;
-  font-weight: 600;
-  font-size: 1.5rem;
+
+#message h3 {
+  margin-bottom: 50px;
+}
+
+#message h4 {
+  margin-bottom: 30px;
 }
 
 .funny-cards {
   height: 60%;
   width: 75%;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-/*
-#paddy-cards{
-}*/
+/* --------------------------------------------------- Send Card Selected */
 
-/*-------------------------------- form section
-#fill-form{
-}*/
+.head-title {
+  margin-top: 80px;
+  color: #008000;
+}
+
+.head-title h1 {
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 6em;
+}
+
+.head-title h3 {
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 4em;
+}
+
+.head-title h4 {
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.head-title p {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+.card-center {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 20px 0;
+}
+
+.greenspan {
+  color: #008000;
+  font-family: 'Marck Script', cursive;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.sendmsg-img {
+  width: 600px;
+  height: auto;
+}
+
+.send-form {
+  margin: 80px 0;
+  padding: 0 350px;
+}
+
+.submit-form {
+  margin-top: 80px;
+}
+
+.submit-form button,
+.index-card-link {
+  font-family: 'Marck Script', cursive;
+  text-transform: capitalize !important;
+  font-size: 1.5em;
+}
+
+/* Materialize Forms styling changes */
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #2da32d;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #2da32d;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #2da32d;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #2da32d;
+}
 
 /* --------------------------------------------------- Footer */
 footer .copyright {
   margin-bottom: 0;
 }
 /* --------------------------------------------------- Media Queries */
+
+@media screen and (max-width: 1800px) {
+  .send-form {
+    padding: 0px 250px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .send-form {
+    padding: 0px 200px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .send-form {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .send-form {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .hero-call {
+    left: 8%;
+    margin-top: 80px;
+    z-index: 5;
+  }
+
+  .hero-call h3 {
+    padding-top: 30px;
+  }
+
+  .head-title h1 {
+    font-weight: 500;
+    font-size: 3em;
+  }
+
+  .head-title h3 {
+    font-weight: 500;
+    font-size: 2.5em;
+  }
+
+  .head-title h4 {
+    font-weight: 500;
+    font-size: 1.8em;
+  }
+
+  .head-title p {
+    font-size: 1.2em;
+  }
+  .head-title i {
+    font-size: 1em;
+  }
+
+  .send-form {
+    padding: 0 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-call {
+    left: 8%;
+    margin-top: 50px;
+    z-index: 5;
+  }
+
+  .hero-call h3 {
+    padding-top: 10px;
+  }
+
+  .head-title h1 {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .head-title h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+
+  .head-title h4 {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+
+  .social a {
+    font-size: 1.5em;
+    padding: 0 20px;
+  }
+}
