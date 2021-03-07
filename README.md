@@ -6,16 +6,16 @@ To visit live website, [click here.](https://paddy-hack-team.github.io/happypadd
 # User Experience (UX)
 ### User stories
 
--   #### First Time Visitor Goals
+- #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about St. Patrick's Day.
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    3. As a First Time Visitor, I want to have the option to watch videos related to St. Patrick's Day from all over the world.
-    4. As a First Time Visitor, I want to send e-cards to loved ones.
+    - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about St. Patrick's Day.
+    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    -  As a First Time Visitor, I want to have the option to watch videos related to St. Patrick's Day from all over the world.
+    - As a First Time Visitor, I want to send e-cards to loved ones.
 
--   #### Returning Visitor Goals
+- #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to see if there is new information and new cards about St. Patrick's Day.
+    - As a Returning Visitor, I want to see if there is new information and new cards about St. Patrick's Day.
 
 
 
