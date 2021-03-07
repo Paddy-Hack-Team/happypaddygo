@@ -243,11 +243,17 @@ footer .copyright {
   .send-form {
     padding: 0px 200px;
   }
+  .card-title {
+    font-size: 1.7em !important;
+  }
 }
 
 @media screen and (max-width: 1350px) {
   .send-form {
     padding: 0 80px;
+  }
+  .card-title {
+    font-size: 1.6em !important;
   }
 }
 
@@ -255,9 +261,18 @@ footer .copyright {
   .send-form {
     padding: 0 60px;
   }
+  .card-title {
+    font-size: 1.5em !important;
+  }
+  
+  .head-title h3 {
+    font-weight: 500;
+    font-size: 3.5em;
+  }
+
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 795px) {
   .hero-call {
     left: 8%;
     margin-top: 80px;
@@ -293,6 +308,10 @@ footer .copyright {
   }
   .head-title i {
     font-size: 1em;
+  }
+
+  .card-title {
+    font-size: 1.3em !important;
   }
 
   .send-form {
