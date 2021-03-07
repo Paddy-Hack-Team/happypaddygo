@@ -41,6 +41,16 @@ This project is created with:
 Below are the resources that were used.
 - [Materialize](https://materializecss.com/) - A modern responsive front-end framework based on Material Design used for styling CSS.
 - [Pexels](https://www.pexels.com/) - Used for free stock photos
+    - [Darlene Alderson](https://www.pexels.com/@darlene-alderson)
+    - [Jill wellington](https://www.pexels.com/@jill-wellington-1638660)
+    - [Anna Shvets](https://www.pexels.com/@shvetsa)
+    - [Sudipta Mondal](https://www.pexels.com/@sudipta)
+    - [Pressmaster](https://www.pexels.com/@pressmaster)
+- Youtube
+    - [ABC News](https://www.youtube.com/watch?v=40BlVzjxu-I)
+    - [Home of the Holidays](https://www.youtube.com/watch?v=BBE_aW7Bsn4)
+    - [Reading Through History](https://www.youtube.com/watch?v=HFch06rGKXw)
+
 
 # Acknowledgements
 This webiste was created through guidance from our mentor Chris, team efforts, effective and efficient collaboration and communications from the team member below.
