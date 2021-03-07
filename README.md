@@ -36,9 +36,9 @@ To visit live website, [click here.](https://paddy-hack-team.github.io/happypadd
 
     - ### Wireframes
 
-        -  Home Page Wireframe - ![View](assets/img/Wireframe - Home.png))
-        - St.Patrick's Day Page Wireframe - ![View](assets/img/Wireframe - paddy.png))
-        - Greetings Cards Page Wireframe -![View](assets/img/Wireframe - cards.png)
+        -  Home Page Wireframe - ![View](assets/img/Wireframe-Home.png)
+        - St.Patrick's Day Page Wireframe - ![View](assets/img/Wireframe-paddy.png)
+        - Greetings Cards Page Wireframe -![View](assets/img/Wireframe-cards.png)
 
 
 # Features
