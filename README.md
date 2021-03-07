@@ -43,7 +43,7 @@ Below are the resources that were used.
 - [Pexels](https://www.pexels.com/) - Used for free stock photos
 
 # Acknowledgements
-This webiste was created through team efforts, effective and efficient collaboration and communications from the team member below.
+This webiste was created through guidance from our mentor Chris, team efforts, effective and efficient collaboration and communications from the team member below.
 
 - Fabio 
 - Magda
