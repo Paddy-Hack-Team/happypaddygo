@@ -141,50 +141,40 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Collaboration
 
-- Each navbar link worked correctly, in both the mobile navbar and the expanded desktop navbar in all pages.
-- The links of the social pages in the footer works correctly in all the website pages opening a new page.
-- The the navbar logo works correctly by redirecting the user to the homepage.
-- The carousel button in the about page works correctly, showing each one a different picture.
-- The four youtube videos in the about section can be played without problem.
-  Tested Carousel right and left arrows and the right arrow moves to the next image and left arrow moves to the previous image as desired.
+### Forking the GitHub Repository
 
-## Responsive Design
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-## Accessibility
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-## Validators
+### Making a Local Clone
 
-## Grammar and spelling
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
-## Lighthouse
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 
-# Deployment
+7. Press Enter. Your local clone will be created.
 
-This project has been deployed on GitHub Pages by the Admin with the following process:
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
-- All code was written on Gitpod, an online IDE.
-- The code was then pushed to GitHub where it is stored in my Repository.
-- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
-- Under 'Source' drop-down, the 'Master branch' was selected.
-- Once selected, this publishes the project to GitHub Pages and displays the site url.
-- There is no difference between the deployed version and the development version.
-- The code can be run locally through clone or download.
-- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
-- The Clone option provides a url, which you can use on your desktop IDE.
-- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
-
-This project has been deployed on GitHub Pages by the Admin with the following process:
-
-- All code was written on Gitpod, an online IDE.
-- The code was then pushed to GitHub where it is stored in my Repository.
-- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
-- Under 'Source' drop-down, the 'Master branch' was selected.
-- Once selected, this publishes the project to GitHub Pages and displays the site url.
-- There is no difference between the deployed version and the development version.
-- The code can be run locally through clone or download.
-- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
-- The Clone option provides a url, which you can use on your desktop IDE.
-- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more informatino about Cloning repositories.
+Click [Here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests) for more informatino about Collaboration.
 
 # Credits
 
