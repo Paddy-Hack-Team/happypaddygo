@@ -144,21 +144,28 @@ nav {
   color: #008000;
 }
 
-.head-title h1 {
+.head-title h1,
+.head-title h2,
+.head-title h3,
+.head-title h4
+.head-title p {
   font-family: 'Marck Script', cursive;
   font-weight: 600;
+}
+
+.head-title h1 {
   font-size: 6em;
 }
 
+.head-title h2 {
+  font-size: 5em;
+}
+
 .head-title h3 {
-  font-family: 'Marck Script', cursive;
-  font-weight: 600;
   font-size: 4em;
 }
 
 .head-title h4 {
-  font-family: 'Marck Script', cursive;
-  font-weight: 600;
   font-size: 3em;
 }
 
@@ -266,6 +273,11 @@ footer .copyright {
     font-size: 3em;
   }
 
+  .head-title h2 {
+    font-weight: 500;
+    font-size: 2.7em;
+  }
+
   .head-title h3 {
     font-weight: 500;
     font-size: 2.5em;
@@ -301,17 +313,26 @@ footer .copyright {
 
   .head-title h1 {
     font-weight: 400;
+    font-size: 2.4em;
+  }
+
+  .head-title h2 {
+    font-weight: 500;
     font-size: 2em;
   }
 
   .head-title h3 {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 
   .head-title h4 {
     font-weight: 400;
     font-size: 1.2em;
+  }
+
+  .card-title {
+    font-size: 1.2em !important;
   }
 
   .social a {
