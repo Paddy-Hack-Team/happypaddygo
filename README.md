@@ -2,9 +2,6 @@
 Hackathon March 2021 - Code Institute
 # User Experience (UX)
 # Features
-
-# Technologies Used
-# Testing
 The website features a header with a logo on the left and navigation bar with menu items on the left. It aslo features a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
 ## Home
 The **Home** page allows the user to have ease of access and navigation to all other pages, from the navigation bar, the user can navigate to **St.Patrick's** page and **Greetings Cards** page links to other pages and social media platforms in the footer of the page.
@@ -25,6 +22,34 @@ The **Greetings Cards** page features six clickable cards which navigate the use
 
 This also allows the user to open up several cards in separate windows and gives them the ability to send multiple cards to multiple people.
 
+# Technologies Used
+This project is created with:
+
+- HTML5 - used for building the website
+- CSS3 - for styling elements
+- JavaScript
+- Google Fonts - Roboto, Marck Script used for the font-family and Open Sans as the fall-back.
+- Font Awesome - for Icons
+- Materialize - 
+- Visual Studio/GitHub
+
+
+# Testing
+
 # Deployment
 # Credits
+Below are the resources that were used.
+- [Materialize](https://materializecss.com/) - A modern responsive front-end framework based on Material Design used for styling CSS.
+- [Pexels](https://www.pexels.com/) - Used for free stock photos
+
 # Acknowledgements
+This webiste was created through team efforts, effective and efficient collaboration and communications from the team member below.
+
+- Fabio 
+- Magda
+- Alesandro
+- Joan Amudu
+- M casey
+- Fiachara
+
+
