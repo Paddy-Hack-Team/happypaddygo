@@ -52,6 +52,13 @@ This project is created with:
 
 ## Links
 
+- Each navbar link worked correctly, in both the mobile navbar and the expanded desktop navbar in all pages.
+- The links of the social pages in the footer works correctly in all the website pages opening a new page.
+- The the navbar logo works correctly by redirecting the user to the homepage.
+- The carousel button in the about page works correctly, showing each one a different picture.
+- The four youtube videos in the about section can be played without problem.
+  Tested Carousel right and left arrows and the right arrow moves to the next image and left arrow moves to the previous image as desired.
+
 ## Responsive Design
 
 ## Accessibility
