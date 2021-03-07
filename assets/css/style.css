@@ -92,7 +92,10 @@ nav {
 }
 
 .videogallery {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+.video {
+  margin-bottom: 50px;
 }
 
 .social {
