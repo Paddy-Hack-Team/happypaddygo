@@ -1,4 +1,4 @@
-# happypaddygo
+# Happy Paddy Go
 
 To visit live website, [click here.](https://paddy-hack-team.github.io/happypaddygo/)
 
@@ -23,9 +23,9 @@ To visit live website, [click here.](https://paddy-hack-team.github.io/happypadd
 
   - #### General
 
-    - This webpage was created as a mobile first, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
+    - This webpage was created as a mobile first, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to maintain if necessary to include or remove cards.
 
-  - #### Colour Scheme
+  - #### Color Scheme
 
     - The website was created using the Irish colors of Green and white. The fonts are in green and correspond nicley with the white background color. This color scheme also reflects the St. Patrick's Day colors.
 
@@ -46,7 +46,7 @@ To visit live website, [click here.](https://paddy-hack-team.github.io/happypadd
 
 # Features
 
-The website features a header with a logo on the left and navigation bar with menu items on the left. It aslo features a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
+The website features a header with a logo on the left and navigation bar with menu items on the left. It also features a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
 
 ## Home
 
@@ -62,11 +62,11 @@ The **St.Patrick's Day** page features information about St.Patrick's day. This 
 
 The Hero images in this page are displayed as a carousel of images with a slider.
 
-The page also features embeded youtube videos with various information around the St.Patrick's Day celebrations and traditions around the world.
+The page also features embedded youtube videos with various information around the St.Patrick's Day celebrations and traditions around the world.
 
 ## Greetings Cards
 
-The **Greetings Cards** page features six clickable cards which navigate the user to a form for each card when cliked. This allows for the user to have a seemless experience as each card opens up in a separate page with a form which the user can send.
+The **Greetings Cards** page features six clickable cards which navigate the user to a form for each card when clicked. This allows for the user to have a seamless experience as each card opens up in a separate page with a form which the user can send.
 
 This also allows the user to open up several cards in separate windows and gives them the ability to send multiple cards to multiple people.
 
@@ -86,7 +86,13 @@ This project is created with:
 
 # Testing
 
-## User Stories
+## User Stories testing
+
+- #### First Time Visitor Goals
+
+  - On the home page with the main title I understand what the purpose of the site is. From the navigation bar I can access the two main sections. The postcards on the home page invite me to learn more about St. Patrick's Day or to access the greetings section.
+  - On the information page, I can find a brief description of St. Patrick's Day and videos about the holiday and how it is celebrated.
+  - On the greeting page, I can choose from six possible cards. Once you have clicked on the chosen postcard, a form opens in which you can enter the name of the recipient and that of the sender as well as a short message. A pop-up informs me if the message has been sent successfully.
 
 ## Links
 
@@ -95,15 +101,30 @@ This project is created with:
 - The the navbar logo works correctly by redirecting the user to the homepage.
 - The carousel button in the about page works correctly, showing each one a different picture.
 - The four youtube videos in the about section can be played without problem.
-  Tested Carousel right and left arrows and the right arrow moves to the next image and left arrow moves to the previous image as desired.
+- Each postcard has been tested, the form has been filled in and the email has been sent successfully. The confirmation pop up appears every time.
 
 ## Responsive Design
 
+- Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
+- Once these changes were optimized I finally tested the project with [Google Mobile-Friendly](https://search.google.com/test/mobile-friendly) test. The test gave excellent results.
+
 ## Validators
+
+- [HTML Validator](https://validator.w3.org/) The test was positive for index.html and sendmessage.html. For the about.html we experienced some error mostly due to iframes.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) No Error found.
 
 ## Grammar and spelling
 
+- [Online Spellcheck](https://www.online-spellcheck.com/) The website and Readme contents were double checked with [Online Spellcheck](https://www.online-spellcheck.com/).
+
 ## Lighthouse
+
+The Lighthouse test give the following result:
+
+- **Performance**:
+- **Accessibility**:
+- **Best Practices**:
+- **SEO**:
 
 # Deployment
 
@@ -120,50 +141,40 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Collaboration
 
-- Each navbar link worked correctly, in both the mobile navbar and the expanded desktop navbar in all pages.
-- The links of the social pages in the footer works correctly in all the website pages opening a new page.
-- The the navbar logo works correctly by redirecting the user to the homepage.
-- The carousel button in the about page works correctly, showing each one a different picture.
-- The four youtube videos in the about section can be played without problem.
-  Tested Carousel right and left arrows and the right arrow moves to the next image and left arrow moves to the previous image as desired.
+### Forking the GitHub Repository
 
-## Responsive Design
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-## Accessibility
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-## Validators
+### Making a Local Clone
 
-## Grammar and spelling
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
-## Lighthouse
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 
-# Deployment
+7. Press Enter. Your local clone will be created.
 
-This project has been deployed on GitHub Pages by the Admin with the following process:
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
-- All code was written on Gitpod, an online IDE.
-- The code was then pushed to GitHub where it is stored in my Repository.
-- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
-- Under 'Source' drop-down, the 'Master branch' was selected.
-- Once selected, this publishes the project to GitHub Pages and displays the site url.
-- There is no difference between the deployed version and the development version.
-- The code can be run locally through clone or download.
-- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
-- The Clone option provides a url, which you can use on your desktop IDE.
-- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
-
-This project has been deployed on GitHub Pages by the Admin with the following process:
-
-- All code was written on Gitpod, an online IDE.
-- The code was then pushed to GitHub where it is stored in my Repository.
-- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
-- Under 'Source' drop-down, the 'Master branch' was selected.
-- Once selected, this publishes the project to GitHub Pages and displays the site url.
-- There is no difference between the deployed version and the development version.
-- The code can be run locally through clone or download.
-- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
-- The Clone option provides a url, which you can use on your desktop IDE.
-- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more informatino about Cloning repositories.
+Click [Here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests) for more informatino about Collaboration.
 
 # Credits
 
