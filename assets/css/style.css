@@ -246,19 +246,15 @@ footer .copyright {
   }
 }
 
-
-
-
-
 @media screen and (max-width: 787px) {
   .hero-call {
     left: 8%;
-    margin-top: 50px;
+    margin-top: 80px;
     z-index: 5;
   }
 
   .hero-call h3 {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .head-title h1 {
@@ -286,5 +282,36 @@ footer .copyright {
   .send-form {
     padding: 0 0px;
   }
+}
 
+@media screen and (max-width: 450px) {
+  .hero-call {
+    left: 8%;
+    margin-top: 50px;
+    z-index: 5;
+  }
+
+  .hero-call h3 {
+    padding-top: 10px;
+  }
+
+  .head-title h1 {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .head-title h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+
+  .head-title h4 {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+
+  .social a {
+    font-size: 1.5em;
+    padding: 0 20px;
+  }
 }
