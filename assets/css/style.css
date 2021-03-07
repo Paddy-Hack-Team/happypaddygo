@@ -79,6 +79,10 @@ nav {
   text-align: center;
 }
 
+.card-action a {
+  font-weight: bolder;
+}
+
 /* --------------------------------------------------- About Paddy */
 
 .aboutpaddy {
