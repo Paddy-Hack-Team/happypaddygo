@@ -76,10 +76,12 @@ This project is created with:
 
 - HTML5 - used for building the website
 - CSS3 - for styling elements
-- JavaScript
+- JavaScript - for Materialize elements and to connect to Email JS API.
 - Google Fonts - Roboto, Marck Script used for the font-family and Open Sans as the fall-back.
 - Font Awesome - for Icons.
 - Materialize CSS - Used for elements, components and styling of the page.
+- Affinity Designer - Creation of the Webpage Logo.
+- Affinity Photo - To resize and reduce picture sizes.
 - Visual Studio Code - Text editor for coding
 - GitHub - Used for hosting the code, project management and version control.
 - GitHub Pages - This is where the site is deployed.
@@ -196,9 +198,10 @@ Below are the resources that were used.
 
 This webiste was created through guidance from our mentor Chris, team efforts, effective and efficient collaboration and communications from the team member below.
 
-- Fabio De Araujo
-- Magda Ruszaj
 - Alessandro Commentucci
-- Joan Amudu
-- Mike Casey
+- Fabio De Araujo
 - Fiachra Holland
+- Joan Amudu
+- Magda Ruszaj
+- Mike Casey
+
