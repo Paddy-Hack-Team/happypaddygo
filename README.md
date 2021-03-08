@@ -76,7 +76,8 @@ This project is created with:
 
 - HTML5 - used for building the website
 - CSS3 - for styling elements
-- JavaScript - for Materialize elements and to connect to Email JS API.
+- JavaScript - to connect to Email JS API.
+- JQuery - to initialize Materialize CSS components.
 - Google Fonts - Roboto, Marck Script used for the font-family and Open Sans as the fall-back.
 - Font Awesome - for Icons.
 - Materialize CSS - Used for elements, components and styling of the page.
