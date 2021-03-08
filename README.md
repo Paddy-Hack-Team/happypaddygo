@@ -80,6 +80,7 @@ This project is created with:
 - Google Fonts - Roboto, Marck Script used for the font-family and Open Sans as the fall-back.
 - Font Awesome - for Icons.
 - Materialize CSS - Used for elements, components and styling of the page.
+- Balsamic - to creation of the Wireframes.
 - Affinity Designer - Creation of the Webpage Logo.
 - Affinity Photo - To resize and reduce picture sizes.
 - Visual Studio Code - Text editor for coding
