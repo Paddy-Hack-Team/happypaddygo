@@ -118,7 +118,7 @@ This project is created with:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) No Error found.
 
 ## Brower Compatitbility
-Thia site has been tested successfully on the following browsers:
+This site has been tested successfully on the following browsers:
   - Google Chrome
   - Microsoft Edge
   - Firefox
