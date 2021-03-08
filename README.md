@@ -122,12 +122,9 @@ This project is created with:
 
 ## Lighthouse
 
-The Lighthouse test give the following result:
+The Lighthouse Desktop test give the following result:
 
-- **Performance**:
-- **Accessibility**:
-- **Best Practices**:
-- **SEO**:
+<img src="https://paddy-hack-team.github.io/happypaddygo/assets/img/lighthouse_desktop.jpg">
 
 # Deployment
 
