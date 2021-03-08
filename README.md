@@ -110,12 +110,21 @@ This project is created with:
 ## Responsive Design
 
 - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
-- Once these changes were optimized I finally tested the project with [Google Mobile-Friendly](https://search.google.com/test/mobile-friendly) test. The test gave excellent results.
+- Once these changes were optimized, the website was finally tested the project with [Google Mobile-Friendly](https://search.google.com/test/mobile-friendly) test. The test gave excellent results.
 
 ## Validators
 
 - [HTML Validator](https://validator.w3.org/) The test was positive for index.html and sendmessage.html. For the about.html we experienced some error mostly due to iframes.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) No Error found.
+
+## Brower Compatitbility
+Thia site has been tested successfully on the following browsers:
+  - Google Chrome
+  - Microsoft Edge
+  - Firefox
+  - Safari
+  - Internet Explorer
+  - Brave
 
 ## Grammar and spelling
 
